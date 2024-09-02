@@ -1,0 +1,128 @@
+section.partner {
+    background: url('../../assets/img/services/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.partner .header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+section.services .header_content {
+    max-width: 748px;
+    margin: auto auto 60px;
+    text-align: center;
+}
+
+section.services .service_list .row {
+    align-items: center;
+}
+
+section.services .service_list .image img {
+    width: 100%;
+}
+
+section.services .service_list .content p {
+    margin-bottom: 30px;
+}
+
+section.video-services {
+    background: url('../../assets/img/services/bg-video.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.video-services .header_content {
+    max-width: 748px;
+    margin: auto auto 60px;
+    text-align: center;
+}
+
+section.video-services .video_section {
+    display: flex;
+    gap: 24px;
+}
+
+section.video-services .video_card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.video-services .video_card img {
+    width: 100%;
+}
+
+@media (min-width:992px) {
+
+
+    section.services .service_list .row:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+
+    section.services .row:nth-child(odd) .content {
+        margin: auto 0 auto auto;
+    }
+
+    section.services .row:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    section.services .row:nth-child(even) .image {
+        text-align: end;
+    }
+
+    section.services .service_list .image img {
+        max-width: 767px;
+    }
+
+    section.services .service_list .content {
+        max-width: 749px;
+    }
+}
+
+@media (max-width:991px) {
+    section.partner .header_content {
+        text-align: center;
+        justify-content: center;
+    }
+
+    section.partner img {
+        margin-bottom: 30px;
+        border-radius: 30px;
+        min-height: 240px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    section.partner .cta a {
+        margin: auto;
+    }
+
+    section.services .service_list .row {
+        text-align: center;
+    }
+
+    section.services .service_list .row:not(:last-of-type) {
+        margin-bottom: 50px;
+    }
+
+    section.services .service_list .image img {
+        margin-bottom: 20px;
+    }
+
+    section.services .service_list a.c_btn {
+        margin: auto;
+    }
+}
+
+@media (max-width:767px) {
+    section.video-services .video_section {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+}

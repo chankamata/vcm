@@ -1,0 +1,45 @@
+section.privacy-policy h1,
+section.privacy-policy h2,
+section.privacy-policy a {
+    color: #96CE47;
+}
+
+section.privacy-policy ._content {
+    max-width: 1304px;
+    margin: auto;
+}
+
+
+
+@media (min-width:1200px) {
+    section.privacy-policy .pps:not(:last-of-type) {
+        margin-bottom: 60px;
+    }
+
+    section.privacy-policy .pps:first-of-type p:first-of-type {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:1199px) {
+    section.privacy-policy .pps:not(:last-of-type) {
+        margin-bottom: 45px;
+    }
+
+    section.privacy-policy .pps:first-of-type p:first-of-type {
+        margin-bottom: 35px;
+    }
+}
+
+
+@media (max-width:767px) {
+    section.privacy-policy .pps:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:389px) {
+    section.privacy-policy a br {
+        display: none;
+    }
+}
