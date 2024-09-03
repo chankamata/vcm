@@ -87,7 +87,7 @@ get_header(); ?>
                     <div class="main_image">
                         <img src="<?php echo $asset_path; ?>/assets/img/about-us/about-founder.png"
                             alt="Boost your digital presence with us" class="">
-                        <img src="<?php echo $asset_path; ?>/assets/img/general/border-right.png" alt="Border Up"
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/founder-shape.png" alt="Border Up"
                             class="bd border-left d-none">
                         <div class="content">
                             <h5 class="m-0">30+</h5>
@@ -111,19 +111,21 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="value_drives">
+<section class="value_drives l-_hpx">
     <div class="container-fluid">
         <div class="wrapper">
-            <div class="header_content">
-                <h2> Values That <span>Drive Our Success</span></h2>
-                <p>At VCM, our core values drive every campaign and partnership we forge. We are dedicated to delivering
-                    exceptional brand work, nurturing celebrity connections, and executing innovative digital strategies
-                    with integrity and creativity.</p>
+            <div class="mb_60">
+                <div class="header_content">
+                    <h2> Values That <span>Drive Our Success</span></h2>
+                    <p class="m-0">At VCM, our core values drive every campaign and partnership we forge. We are
+                        dedicated to delivering exceptional brand work, nurturing celebrity connections, and executing
+                        innovative digital strategies with integrity and creativity.</p>
+                </div>
             </div>
             <div class="owl-carousel owl-theme" id="core-values">
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path
@@ -161,7 +163,7 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <g clip-path="url(#clip0_4651_14666)">
@@ -183,7 +185,7 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path d="M9.375 13.5938H11.7188V17.3438H9.375V13.5938Z" fill="#F2F7E0" />
@@ -207,7 +209,7 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <g clip-path="url(#clip0_4651_19014)">
@@ -228,7 +230,7 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path
@@ -267,7 +269,7 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -282,35 +284,27 @@ get_header(); ?>
                 </div>
                 <div class="item">
                     <div class="vd_card">
-                        <img src="<?php echo $asset_path; ?>/assets/img/index/core_border.png" alt=""
+                        <img src="<?php echo $asset_path; ?>/assets/img/about-us/core-shape.png" alt=""
                             class="border-right d-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
-                            <circle cx="30" cy="30" r="30" fill="url(#paint0_linear_4651_6251)" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path
-                                d="M26.1635 32.8829C25.7692 32.46 25.2725 32.1973 24.868 32.1973C24.7466 32.1973 24.5789 32.2227 24.4704 32.3427L21.3536 35.7941C21.1822 35.9837 21.225 36.3282 21.2515 36.4669C21.3256 36.8597 21.5535 37.2832 21.8767 37.6297C22.2713 38.0526 22.7677 38.3153 23.1722 38.3153C23.2933 38.3153 23.461 38.2905 23.5698 38.1699L26.6866 34.7191C26.9628 34.4129 26.798 33.5631 26.1635 32.8829Z"
+                                d="M11.1635 17.8829C10.7692 17.46 10.2725 17.1973 9.86804 17.1973C9.74656 17.1973 9.57894 17.2227 9.47037 17.3427L6.35356 20.7941C6.18225 20.9837 6.225 21.3282 6.25145 21.4669C6.32557 21.8597 6.55347 22.2832 6.87672 22.6297C7.27132 23.0526 7.76772 23.3153 8.17216 23.3153C8.29334 23.3153 8.46096 23.2905 8.56984 23.1699L11.6866 19.7191C11.9628 19.4129 11.798 18.5631 11.1635 17.8829Z"
                                 fill="#F2F7E0" />
                             <path
-                                d="M23.6745 30.7059C23.6004 30.3139 23.3725 29.8903 23.0495 29.5439C22.6491 29.1143 22.1524 28.8516 21.7479 28.8516C21.6264 28.8516 21.4591 28.877 21.3506 28.997L18.2334 32.4484C18.0621 32.638 18.1049 32.9825 18.1313 33.1212C18.2055 33.514 18.4334 33.9375 18.7566 34.284C19.1574 34.7136 19.6538 34.9763 20.0582 34.9763C20.1797 34.9763 20.347 34.9508 20.4556 34.8309L23.5724 31.3795C23.7437 31.1898 23.7009 30.8453 23.6745 30.7059Z"
+                                d="M8.67448 15.7059C8.60036 15.3139 8.37246 14.8903 8.04952 14.5439C7.64908 14.1143 7.15237 13.8516 6.74793 13.8516C6.62644 13.8516 6.45913 13.877 6.35056 13.997L3.23344 17.4484C3.06213 17.638 3.10488 17.9825 3.13133 18.1212C3.20546 18.514 3.43336 18.9375 3.7566 19.284C4.15735 19.7136 4.65375 19.9763 5.05819 19.9763C5.17968 19.9763 5.34699 19.9508 5.45556 19.8309L8.57237 16.3795C8.74368 16.1898 8.70093 15.8453 8.67448 15.7059Z"
                                 fill="#F2F7E0" />
                             <path
-                                d="M29.2776 36.2207C28.8834 35.7979 28.3869 35.5352 27.9825 35.5352C27.861 35.5352 27.6934 35.56 27.5845 35.6806L24.4677 39.1313C24.1915 39.4376 24.3564 40.2874 24.9909 40.9676C25.3855 41.3905 25.8822 41.6532 26.2866 41.6532C26.4078 41.6532 26.5754 41.6277 26.684 41.5077L29.8008 38.0563C30.077 37.7507 29.9118 36.9003 29.2776 36.2207Z"
+                                d="M14.2776 21.2207C13.8834 20.7979 13.3869 20.5352 12.9825 20.5352C12.861 20.5352 12.6934 20.56 12.5845 20.6806L9.46772 24.1313C9.19153 24.4376 9.35638 25.2874 9.99088 25.9676C10.3855 26.3905 10.8822 26.6532 11.2866 26.6532C11.4078 26.6532 11.5754 26.6277 11.684 26.5077L14.8008 23.0563C15.077 22.7507 14.9118 21.9003 14.2776 21.2207Z"
                                 fill="#F2F7E0" />
                             <path
-                                d="M31.0972 38.875C30.9757 38.875 30.8084 38.9005 30.6999 39.0204L27.5831 42.4718C27.4117 42.6615 27.4545 43.006 27.4809 43.1453C27.5551 43.5374 27.783 43.9609 28.1059 44.3074C28.5067 44.737 29.0031 44.9997 29.4078 44.9997C29.529 44.9997 29.6966 44.9743 29.8052 44.8543L32.922 41.4029C33.1982 41.0973 33.033 40.2468 32.3988 39.5673C31.9984 39.1377 31.5017 38.875 31.0972 38.875Z"
+                                d="M16.0972 23.875C15.9757 23.875 15.8084 23.9005 15.6999 24.0204L12.5831 27.4718C12.4117 27.6615 12.4545 28.006 12.4809 28.1453C12.5551 28.5374 12.783 28.9609 13.1059 29.3074C13.5067 29.737 14.0031 29.9997 14.4078 29.9997C14.529 29.9997 14.6966 29.9743 14.8052 29.8543L17.922 26.4029C18.1982 26.0973 18.033 25.2468 17.3988 24.5673C16.9984 24.1377 16.5017 23.875 16.0972 23.875Z"
                                 fill="#F2F7E0" />
                             <path
-                                d="M42.5907 18.1127C41.0415 16.4185 38.9766 15.4863 36.775 15.4863C34.5751 15.4863 32.5077 16.4192 30.9529 18.1127L26.6763 22.7792C26.5388 22.9286 26.5278 23.1008 26.5333 23.1906C26.5392 23.2791 26.5711 23.446 26.724 23.572C27.5424 24.2475 28.6958 24.3346 29.6187 23.7522L34.647 20.5294C34.9466 20.337 35.3329 20.4449 35.5097 20.772C35.6866 21.0984 35.5869 21.5186 35.2874 21.7116L34.8341 22.0021L35.3986 22.6171C35.4041 22.6228 35.4114 22.6245 35.4169 22.6304L41.9719 29.7717C42.2434 30.0674 42.4522 30.4127 42.5935 30.7884C44.1451 29.0958 44.9998 26.8462 44.9998 24.4519C44.9998 22.0567 44.1442 19.8049 42.5907 18.1127Z"
+                                d="M27.5907 3.11274C26.0415 1.41854 23.9766 0.486328 21.775 0.486328C19.5751 0.486328 17.5077 1.41921 15.9529 3.11274L11.6763 7.77916C11.5388 7.9286 11.5278 8.10084 11.5333 8.19064C11.5392 8.27911 11.5711 8.44598 11.724 8.57197C12.5424 9.24751 13.6958 9.33463 14.6187 8.75225L19.647 5.52938C19.9466 5.33704 20.3329 5.44494 20.5097 5.77199C20.6866 6.09836 20.5869 6.51856 20.2874 6.71157L19.8341 7.00213L20.3986 7.61714C20.4041 7.62275 20.4114 7.62447 20.4169 7.63038L26.9719 14.7717C27.2434 15.0674 27.4522 15.4127 27.5935 15.7884C29.1451 14.0958 29.9998 11.8462 29.9998 9.45191C29.9998 7.05671 29.1442 4.80493 27.5907 3.11274Z"
                                 fill="#F2F7E0" />
                             <path
-                                d="M34.5404 23.617C34.5349 23.6114 34.5275 23.6096 34.5221 23.6037L33.7127 22.7219L30.2541 24.9387C28.8931 25.7985 27.1794 25.6705 25.9639 24.6673C25.5619 24.3362 25.3116 23.8329 25.2768 23.286C25.2421 22.7378 25.4275 22.1997 25.7855 21.8096L29.3303 17.942L29.1782 17.7745C27.5365 15.9865 25.3706 15 23.0815 15C20.9021 15 18.8657 15.9108 17.3479 17.5648C14.1429 21.0631 14.2299 26.8467 17.5429 30.4562L17.9078 30.8537L20.4524 28.0362C20.7806 27.673 21.2284 27.4806 21.7479 27.4806C22.4925 27.4806 23.2866 27.874 23.9269 28.5603C24.4369 29.1072 24.7832 29.7693 24.9084 30.4307C24.9344 30.5688 24.9396 30.7021 24.9455 30.8354C25.6676 30.8613 26.4288 31.2424 27.0471 31.9051C27.6856 32.5897 28.0262 33.4175 28.0609 34.1743C28.7828 34.2005 29.5439 34.5814 30.1618 35.2439C30.7998 35.9284 31.1404 36.7559 31.1752 37.5125C31.8969 37.5389 32.6578 37.9204 33.2758 38.5827C33.7913 39.1355 34.1105 39.7801 34.2385 40.4052C34.4577 40.3206 34.6533 40.1912 34.8149 40.0122C35.4318 39.3407 35.4324 38.2507 34.8216 37.574L34.8195 37.5721L28.2614 30.4267C28.1383 30.2926 28.0768 30.117 28.0769 29.9414C28.0764 29.7652 28.1376 29.5888 28.2611 29.4543C28.5071 29.1862 28.9057 29.1862 29.1518 29.4543L35.7089 36.5983C35.7108 36.6004 35.712 36.6029 35.7139 36.605C36.3315 37.2728 37.3334 37.272 37.9489 36.6017C38.2478 36.276 38.4127 35.8424 38.4127 35.382C38.4127 34.9216 38.2478 34.488 37.9489 34.1623L31.3908 27.0176C31.1448 26.7495 31.1448 26.3152 31.3908 26.0471C31.6368 25.7791 32.0354 25.7791 32.2815 26.0471L38.8365 33.1885C39.4363 33.8426 40.4816 33.8433 41.0814 33.1885C41.3813 32.8621 41.5461 32.4279 41.5461 31.9661C41.5461 31.5044 41.381 31.0701 41.0814 30.743L34.5404 23.617Z"
+                                d="M19.5404 8.61696C19.5349 8.61135 19.5275 8.60959 19.5221 8.60369L18.7127 7.72186L15.2541 9.93867C13.8931 10.7985 12.1794 10.6705 10.9639 9.66725C10.5619 9.33619 10.3116 8.83289 10.2768 8.28602C10.2421 7.73782 10.4275 7.19967 10.7855 6.80963L14.3303 2.94202L14.1782 2.77452C12.5365 0.986495 10.3706 0 8.08146 0C5.9021 0 3.86575 0.910766 2.34794 2.56475C-0.85714 6.06306 -0.7701 11.8467 2.54293 15.4562L2.90781 15.8537L5.45245 13.0362C5.78061 12.673 6.22842 12.4806 6.74789 12.4806C7.49249 12.4806 8.28661 12.874 8.92695 13.5603C9.43688 14.1072 9.78319 14.7693 9.90837 15.4307C9.93443 15.5688 9.93959 15.7021 9.94551 15.8354C10.6676 15.8613 11.4288 16.2424 12.0471 16.9051C12.6856 17.5897 13.0262 18.4175 13.0609 19.1743C13.7828 19.2005 14.5439 19.5814 15.1618 20.2439C15.7998 20.9284 16.1404 21.7559 16.1752 22.5125C16.8969 22.5389 17.6578 22.9204 18.2758 23.5827C18.7913 24.1355 19.1105 24.7801 19.2385 25.4052C19.4577 25.3206 19.6533 25.1912 19.8149 25.0122C20.4318 24.3407 20.4324 23.2507 19.8216 22.574L19.8195 22.5721L13.2614 15.4267C13.1383 15.2926 13.0768 15.117 13.0769 14.9414C13.0764 14.7652 13.1376 14.5888 13.2611 14.4543C13.5071 14.1862 13.9057 14.1862 14.1518 14.4543L20.7089 21.5983C20.7108 21.6004 20.712 21.6029 20.7139 21.605C21.3315 22.2728 22.3334 22.272 22.9489 21.6017C23.2478 21.276 23.4127 20.8424 23.4127 20.382C23.4127 19.9216 23.2478 19.488 22.9489 19.1623L16.3908 12.0176C16.1448 11.7495 16.1448 11.3152 16.3908 11.0471C16.6368 10.7791 17.0354 10.7791 17.2815 11.0471L23.8365 18.1885C24.4363 18.8426 25.4816 18.8433 26.0814 18.1885C26.3813 17.8621 26.5461 17.4279 26.5461 16.9661C26.5461 16.5044 26.381 16.0701 26.0814 15.743L19.5404 8.61696Z"
                                 fill="#F2F7E0" />
-                            <defs>
-                                <linearGradient id="paint0_linear_4651_6251" x1="30" y1="0" x2="30" y2="60"
-                                    gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#2789D0" />
-                                    <stop offset="1" stop-color="#2E3094" />
-                                </linearGradient>
-                            </defs>
                         </svg>
                         <h3>RELATIONSHIP MATTERS</h3>
                         <p class="desc">With all these wrapped up, VCM’s No. 1 priority is to build, maintain and
@@ -575,15 +569,34 @@ get_header(); ?>
 
 <script>
     $(document).ready(function () {
+        var setEqualHeightPerSlide = function () {
+            if ($(window).width() >= 992) {
+                var maxHeight = 0;
+                // Find the max height of all items in the current set of slides
+                $('#core-values .owl-item').each(function (index) {
+                    var itemHeight = $(this).outerHeight();
+                    if (itemHeight > maxHeight) {
+                        maxHeight = itemHeight;
+                    }
+                });
+                // Set the max height to all items in the current set of slides
+                $('#core-values .owl-item').css('height', maxHeight);
+            } else {
+                $('#core-values .owl-item').css('height', ''); // Reset heights for smaller screens
+            }
+        };
+
         $('#core-values').owlCarousel({
             loop: false, // Disable looping
             rewind: true, // Enable rewinding to the first item
             nav: false,
             dots: true,
             autoplay: true,
+            margin: 30,
             animateOut: 'fadeOut',
             animateIn: 'fadeIn',
             autoplayTimeout: 8000,
+            autoHeight: true,
             mouseDrag: false, // Disable mouse dragging
             responsive: {
                 0: {
@@ -592,9 +605,16 @@ get_header(); ?>
                 992: {
                     items: 2
                 }
-            }
+            },
+            onInitialized: setEqualHeightPerSlide,
+            onResized: setEqualHeightPerSlide,
+            onTranslated: setEqualHeightPerSlide
         });
+
+        $(window).on('resize', setEqualHeightPerSlide);
     });
+
+
     $(document).ready(function () {
         $('#testimonial').owlCarousel({
             loop: false, // Disable looping
