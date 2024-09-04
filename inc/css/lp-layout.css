@@ -1,0 +1,122 @@
+section.hero-banner {
+    background: url('../../assets/img/general/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section.lp_about_content .d-flex {
+    align-items: end;
+}
+
+section.lp_about_content ._content {
+    background: url(../../assets/img/index/about-us_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 368px;
+    border-radius: 30px;
+    display: flex;
+}
+
+section.lp_about_content ._content .text {
+    max-width: 917px;
+    margin: auto;
+}
+
+
+@media (min-width:1200px) {
+
+    section.hero-banner ._content,
+    section.what-is .content {
+        gap: 60px;
+    }
+
+    section.lp_about_content .d-flex {
+        gap: 40px;
+    }
+
+    section.lp_about_content ._content {
+        padding: 70px;
+    }
+}
+
+@media (max-width:1199px) {
+
+    section.hero-banner ._content,
+    section.what-is .content {
+        gap: 40px;
+    }
+
+    section.lp_about_content ._content {
+        padding: 50px;
+    }
+
+    section.lp_about_content .d-flex {
+        gap: 30px;
+    }
+}
+
+@media (min-width:992px) {
+
+    section.hero-banner ._content {
+        display: flex;
+        align-items: center;
+    }
+
+    section.hero-banner ._content .text {
+        max-width: 753px;
+    }
+
+    section.hero-banner ._content h1 {
+        margin-bottom: 0;
+    }
+
+    section.hero-banner ._content h1,
+    section.hero-banner ._content .text {
+        width: 50%;
+    }
+
+    section.what-is .content {
+        display: flex;
+        align-items: center;
+    }
+
+    section.what-is .content h2 {
+        max-width: 875px;
+        width: 60%;
+        margin: 0;
+    }
+
+    section.what-is .content .text {
+        max-width: 641px;
+        width: 40%;
+    }
+}
+
+@media (max-width:991px) {
+
+    section.what-is .content,
+    section.hero-banner ._content {
+        text-align: center;
+        margin-bottom: 0 !important;
+    }
+
+    section.what-is .content img,
+    section.hero-banner ._content img {
+        margin-bottom: 20px;
+    }
+
+    section.what-is .content img {
+        border-radius: 30px;
+    }
+
+    section.lp_about_content .d-flex {
+        flex-direction: column;
+    }
+
+    section.lp_about_content ._image,
+    section.lp_about_content img {
+        width: 100%;
+    }
+}

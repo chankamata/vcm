@@ -158,10 +158,24 @@ section.stories_content .row {
     gap: 30px 0;
 }
 
+section.stories_content.lp_layout {
+    background: url('../../assets/img/index/why-choose.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.stories_content.lp_layout .header_content {
+    max-width: 1271px;
+}
+
 section.stories_content .header_content {
-    max-width: 936px;
+    max-width: 1351px;
     margin: auto auto 40px;
     text-align: center;
+}
+
+section.stories_content.lp_layout .stories_card {
+    padding: 50px;
 }
 
 section.stories_content .stories_card {
@@ -476,6 +490,35 @@ section.index_services .owl-item .text p {
     margin-bottom: 0;
 }
 
+section.trusted-talent {
+    background: url('../../assets/img/index/trusted-talent-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.trusted-talent img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+section.what-is-talent .content {
+    background: url('../../assets/img/index/what-is-a.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 30px;
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+section.what-is-talent .content .text {
+    max-width: 1126px;
+    margin: auto;
+}
+
 @media (max-width:1520px) {
     section.contact-us .contact-details img {
         right: -60px !important;
@@ -744,6 +787,15 @@ section.index_services .owl-item .text p {
     section.index_services .header_content .text {
         max-width: 624px;
     }
+
+    section.trusted-talent .row {
+        align-items: center;
+    }
+
+    section.trusted-talent .content {
+        max-width: 724px;
+        margin: auto 0 auto auto;
+    }
 }
 
 @media (max-width:991px) {
@@ -861,6 +913,14 @@ section.index_services .owl-item .text p {
     section.brand_content .item {
         padding: 10px;
     }
+
+    section.trusted-talent .content {
+        text-align: center;
+    }
+
+    section.trusted-talent .content img {
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width:768px) {
@@ -959,6 +1019,11 @@ section.index_services .owl-item .text p {
     section.index_column .content p {
         font-size: 10px;
     }
+
+    section.stories_content.lp_layout .stories_card {
+        padding: 30px;
+    }
+
 }
 
 @media (max-width:420px) {
@@ -966,6 +1031,9 @@ section.index_services .owl-item .text p {
         height: 90px;
     }
 
+    section.what-is-talent .content {
+        padding: 40px 25px;
+    }
 }
 
 @media (min-width:375px) {

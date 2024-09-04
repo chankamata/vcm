@@ -20,7 +20,7 @@ section.what_vcm .image_content {
 
 section.what_vcm .image_content img {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
     max-width: 800px;
 }
@@ -121,6 +121,38 @@ section.value_drives .owl-item .vd_card {
     padding: 35px 50px;
     justify-content: center;
     flex-direction: column;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    transition: background .5s;
+}
+
+section.value_drives .owl-item:nth-of-type(1) .vd_card:hover {
+    background: url('../../assets/img/about-us/1.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(2) .vd_card:hover {
+    background: url('../../assets/img/about-us/2.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(3) .vd_card:hover {
+    background: url('../../assets/img/about-us/3.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(4) .vd_card:hover {
+    background: url('../../assets/img/about-us/4.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(5) .vd_card:hover {
+    background: url('../../assets/img/about-us/5.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(6) .vd_card:hover {
+    background: url('../../assets/img/about-us/6.jpg');
+}
+
+section.value_drives .owl-item:nth-of-type(7) .vd_card:hover {
+    background: url('../../assets/img/about-us/7.jpg');
 }
 
 section.value_drives .owl-item .vd_card h3 {
@@ -171,7 +203,7 @@ section.mv_notes {
     background: url('../../assets/img/about-us/mv_note.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 
 section.mv_notes .mv_card {
@@ -260,6 +292,10 @@ section.mv_notes .title h3 {
 }
 
 @media (max-width: 1199px) {
+    section.what_vcm {
+        background-position: right;
+    }
+
     section.what_vcm .content {
         text-align: center;
         margin-bottom: 40px;
@@ -281,6 +317,7 @@ section.mv_notes .title h3 {
         height: 82px;
         border: 12px solid #1B1F4A;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -330,13 +367,13 @@ section.mv_notes .title h3 {
         gap: 35px;
         flex-direction: column;
     }
-
-    section.mv_notes {
-        background-position: right;
-    }
 }
 
 @media (max-width: 767px) {
+    section.what_vcm {
+        background-position: left;
+    }
+
     section.what_vcm .image_content img {
         display: none;
     }
@@ -395,4 +432,9 @@ section.mv_notes .title h3 {
         height: 62px;
         border: 9px solid #1B1F4A;
     }
+
+    section.affiliates .d-flex img {
+        width: 80%;
+    }
+
 }
