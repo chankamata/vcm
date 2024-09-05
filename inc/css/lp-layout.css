@@ -5,17 +5,27 @@ section.hero-banner {
     background-position: right;
 }
 
+section.lp_about_content {
+    background: url('../../assets/img/general/get-to-know-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 section.lp_about_content .d-flex {
     align-items: end;
 }
 
+section.artist.lp_about_content ._content {
+    background: url('../../assets/img/artist-management/get-to-know-bg.jpg');
+}
+
 section.lp_about_content ._content {
-    background: url(../../assets/img/index/about-us_bg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     min-height: 368px;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
 }
 
@@ -24,12 +34,77 @@ section.lp_about_content ._content .text {
     margin: auto;
 }
 
+section.artist.stories_content .header_content {
+    max-width: 1256px;
+}
+
+section.artist.stories_content a {
+    margin: auto;
+}
+
+section.lp-column {
+    background: url('../../assets/img/general/lp-column-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.lp-column .image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+section.lp-content-box .content {
+    background: url('../../assets/img/index/what-is-a.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 30px;
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+section.lp-content-box .content .text {
+    max-width: 1126px;
+    margin: auto;
+}
+
+section.lp-content-box .content a {
+    margin: 40px auto auto;
+}
+
+section.artist-list {
+    background: url('../../assets/img/artist-management/artist-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.artist-list .artist {
+    width: 100%;
+}
+
+section.artist-list .header_content {
+    max-width: 1245px;
+    margin: auto;
+    text-align: center;
+}
+
+section.artist-list .mb_60 a {
+    margin: 40px auto auto;
+}
 
 @media (min-width:1200px) {
 
     section.hero-banner ._content,
     section.what-is .content {
         gap: 60px;
+    }
+
+    section.lp_about_content {
+        background-position: center;
     }
 
     section.lp_about_content .d-flex {
@@ -39,6 +114,12 @@ section.lp_about_content ._content .text {
     section.lp_about_content ._content {
         padding: 70px;
     }
+
+    section.artist-list .d-flex {
+        gap: 70px;
+    }
+
+
 }
 
 @media (max-width:1199px) {
@@ -55,6 +136,15 @@ section.lp_about_content ._content .text {
     section.lp_about_content .d-flex {
         gap: 30px;
     }
+
+    section.lp_about_content {
+        background-position: left;
+    }
+
+    section.artist-list .d-flex {
+        gap: 50px;
+    }
+
 }
 
 @media (min-width:992px) {
@@ -92,6 +182,34 @@ section.lp_about_content ._content .text {
         max-width: 641px;
         width: 40%;
     }
+
+    section.lp-column .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        max-width: 783px;
+    }
+
+    section.lp-column .image {
+        max-width: 724px;
+        margin: auto 0 auto auto;
+        height: 100%;
+    }
+
+
+    section.lp-column .image img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    section.artist-list .d-flex:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+
+    section.artist-list h3 span {
+        display: none;
+    }
 }
 
 @media (max-width:991px) {
@@ -108,7 +226,7 @@ section.lp_about_content ._content .text {
     }
 
     section.what-is .content img {
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
     section.lp_about_content .d-flex {
@@ -119,4 +237,52 @@ section.lp_about_content ._content .text {
     section.lp_about_content img {
         width: 100%;
     }
+
+    section.lp_about_content ._content {
+        text-align: center;
+    }
+
+    section.lp-column .image img {
+        margin-bottom: 20px;
+    }
+
+    section.lp-column .content {
+        text-align: center;
+    }
+
+    section.artist-list .artist {
+        text-align: center;
+    }
+
+    section.artist-list .d-flex {
+        flex-direction: column;
+    }
+
+    section.artist-list .d-flex:not(:last-of-type) {
+        margin-bottom: 50px;
+    }
+
+    section.artist-list img {
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
 }
+
+@media (max-width:767px) {}
+
+@media (max-width:575px) {
+    section.lp_about_content ._content {
+        padding: 50px 30px;
+    }
+
+    section.lp-content-box .content {
+        padding: 40px 25px;
+    }
+
+    section.artist.stories_content a,
+    section.lp-content-box .content a {
+        height: auto;
+    }
+}
+
+@media (max-width:420px) {}
