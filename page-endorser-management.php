@@ -269,7 +269,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="artist-list l-_hpx">
+<section class="endorser artist-list l-_hpx">
     <div class="container-fluid">
         <div class="wrapper">
             <div class="mb_60">
@@ -390,6 +390,115 @@ get_header(); ?>
                             </div>
                         </h3>
                         <p class="m-0">Pepsi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="lp-stories-box l-_hpx">
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="mb_60">
+                <div class="header_content">
+                    <h2>Success Stories from <span>VCM’s Celebrity Partners</span></h2>
+                    <p class="m-0">Here at VCM, a leading endorsement management agency in the Philippines, our success
+                        stories underscore our expertise. Explore how our strategic celebrity partnerships have driven
+                        significant results for renowned clients, highlighting our proficiency in brand alignment,
+                        campaign
+                        execution, and ongoing support.</p>
+                    <a href="<?php echo $redirect_url; ?>/contact-us/celebrity/" target="_blank"
+                        class="c_btn cta_green c_r">Find Your Perfect Brand Match</a>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/kath.png"
+                            alt="Kathryn Bernardo">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/kath-hover.png"
+                            alt="Kathryn Bernardo">
+                    </div>
+                    <div class="content">
+                        <h3>Kathryn Bernardo</h3>
+                        <p class="m-0">Kathryn Bernardo conveys her profound gratitude for VCM's consistent support and
+                            unwavering dedication, sentiments echoed by her management team.</p>
+                    </div>
+                </div>
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/actor-luis.png"
+                            alt="Luis Manzano">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/luis-hover.png"
+                            alt="Luis Manzano">
+                    </div>
+                    <div class="content">
+                        <h3>Luis Manzano</h3>
+                        <p class="m-0">Luis Manzano commends VCM for consistently connecting him with exceptional
+                            endorsements and projects, while his management team praises VCM's commitment to finding the
+                            perfect fit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/actor-alden.png"
+                            alt="Alden Richards">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/alden-hover.png"
+                            alt="Alden Richards">
+                    </div>
+                    <div class="content">
+                        <h3>Alden Richards</h3>
+                        <p class="m-0">Alden expresses his appreciation for VCM's dedication in securing him projects
+                            over the years, culminating in his latest endorsement shoot. VCM's commitment to matching
+                            brands with the ideal celebrity is evident, as affirmed by his management team.</p>
+                    </div>
+                </div>
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/actor-belle.png"
+                            alt="Belle Mariano">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/belle-hover.png"
+                            alt="Belle Mariano">
+                    </div>
+                    <div class="content">
+                        <h3>Belle Mariano</h3>
+                        <p class="m-0">Belle Mariano is a rising star in the Philippine entertainment industry, known
+                            for her versatility and growing popularity. As a sought-after endorser, she partners with
+                            brands like Pepsi. At VCM, we handle her endorsement shoots, contractual deliverables, and
+                            support for her conferences and charity events.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/ac.png" alt="AC Bonifacio">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/ac-hover.png"
+                            alt="AC Bonifacio">
+                    </div>
+                    <div class="content">
+                        <h3>AC Bonifacio</h3>
+                        <p class="m-0">AC Bonifacio is a Gen Z sensation known for her electrifying dance moves and
+                            magnetic online presence. At VCM, we’ve harnessed her dynamic energy, connecting her with
+                            brands that match her vibrant persona. By managing everything from contracts to shoots, we
+                            empower AC to focus on what she does best—captivating audiences and creating impactful brand
+                            collaborations.</p>
+                    </div>
+                </div>
+                <div class="stories_box">
+                    <div class="image_background">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/daniel.png"
+                            alt="Daniel Padilla">
+                        <img src="<?php echo $asset_path; ?>/assets/img/endorser-management/daniel-hover.png"
+                            alt="Daniel Padilla">
+                    </div>
+                    <div class="content">
+                        <h3>Daniel Padilla</h3>
+                        <p class="m-0">VCM takes pride in fostering enduring relationships with its clients. Daniel
+                            Padilla expresses his deep appreciation for VCM's ongoing support and dedication, sentiments
+                            shared by his management team.</p>
                     </div>
                 </div>
             </div>
