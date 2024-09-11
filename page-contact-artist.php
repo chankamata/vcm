@@ -1,6 +1,8 @@
 <?php /*Template Name: Book a Celebrity  */
 get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/inc/css/contact-us.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 <section class="cf7-form l-_hpx">
     <div class="container-fluid">
@@ -30,4 +32,5 @@ get_header(); ?>
         </div>
     </div>
 </section>
+
 <?php get_footer(); ?>

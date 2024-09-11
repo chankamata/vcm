@@ -1,0 +1,178 @@
+section.influencer-form,
+section.influencer-form .influencer-form-box {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+section.influencer-form {
+    background: url('../../assets/img/influencer-marketing/influencer-form-bg.png');
+}
+
+section.influencer-form .influencer-form-box {
+    background: url('../../assets/img/influencer-marketing/influencer-form.png');
+    border-radius: 30px;
+    padding: 50px 58px;
+}
+
+section.influencer-form .category {
+    max-width: 355px;
+}
+
+section.influencer-form .category .wpcf7-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 280px;
+    overflow: auto;
+}
+
+section.influencer-form .category .wpcf7-checkbox .wpcf7-list-item {
+    margin: 0;
+}
+
+section.influencer-form .category .wpcf7-list-item label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section.influencer-form .category span.wpcf7-list-item-label {
+    color: #F2F7E0;
+}
+
+section.influencer-form .category input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #F2F7E0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+section.influencer-form .category input[type="checkbox"]:checked {
+    background-color: #F2F7E0;
+    border: 2px solid #F2F7E0;
+}
+
+section.influencer-form .category input[type="checkbox"]:checked::before {
+    content: url('../../assets/img/influencer-marketing/check.svg');
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    display: flex;
+    padding: 7px;
+}
+
+
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar-track,
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar {
+    background-color: #F2F7E0;
+}
+
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar {
+    width: 20px;
+}
+
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar-thumb {
+    background-color: #96CE47;
+
+}
+
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar-track,
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar,
+section.influencer-form .category .wpcf7-checkbox::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: none !important;
+}
+
+section.influencer-form form .d-flex {
+    gap: 60px;
+}
+
+section.influencer-form form .d-flex .forms {
+    width: 100%;
+    margin-top: 26px;
+}
+
+section.influencer-form .check_box {
+    margin-bottom: 24px;
+}
+
+section.influencer-form .check_box h5 {
+    margin-bottom: 27px;
+}
+
+section.influencer-form .testify h5 {
+    margin-bottom: 8px;
+}
+
+section.influencer-form input[type="text"] {
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    height: 50px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+section.influencer-form .form_layout:last-of-type br,
+section.influencer-form .dual br {
+    display: none;
+}
+
+section.influencer-form .form_layout:last-of-type p,
+section.influencer-form .dual p,
+section.influencer-form .mix {
+    display: flex;
+    gap: 15px;
+}
+
+section.influencer-form .form_layout:last-of-type p {
+    width: 100%;
+}
+
+section.influencer-form .form_layout:last-of-type p span,
+section.influencer-form .single-input,
+section.influencer-form .mix .single,
+section.influencer-form .dual {
+    width: 50%;
+}
+
+section.influencer-form .single-input p {
+    margin-right: 7px;
+}
+
+section.influencer-form .form_layout:first-of-type,
+section.influencer-form .form_layout p {
+    margin-bottom: 15px;
+}
+
+section.influencer-form form .d-flex .forms h5 {
+    margin-bottom: 30px;
+}
+
+section.influencer-form form .cta p {
+    margin-bottom: 0;
+}
+
+section.influencer-form form input.cta_green {
+    margin: 50px auto auto;
+}
+
+section.influencer-form form span.wpcf7-spinner {
+    display: none;
+}
+
+section.influencer-form .dual p span,
+section.influencer-form .dual input {
+    max-width: 267px !important;
+}

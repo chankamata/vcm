@@ -45,6 +45,7 @@ section.cf7-form input:not(.c_btn) {
     background: #FFF;
 }
 
+.select2-container--default .select2-selection--single,
 section.cf7-form select,
 section.cf7-form input,
 section.cf7-form textarea {
@@ -53,11 +54,18 @@ section.cf7-form textarea {
     padding: 8px 16px;
 }
 
+section.cf7-form textarea {
+    max-height: 115px;
+}
+
+section.cf7-form textarea::placeholder,
+span.select2-selection__placeholder,
 section.cf7-form select::placeholder,
 section.cf7-form input::placeholder {
     color: #8E8E8E;
 }
 
+/* Contact form layout */
 section.cf7-form .contact-form {
     background: url('../../assets/img/contact/contact-form.jpg');
     background-size: cover;
@@ -92,6 +100,117 @@ section.cf7-form .contact-image img {
     height: 100%;
     object-fit: cover;
 }
+
+/* Select2 container and selection styles */
+span.select2.select2-container.select2-container--default,
+.select2-container .select2-container--open .select2-dropdown--below {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single,
+section.cf7-form span.select2-selection.select2-selection--single {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px !important;
+}
+
+/* Arrow positioning */
+section.cf7-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 99999;
+}
+
+/* Select2 dropdown and results */
+.select2-dropdown:not(.select2-dropdown--above) {
+    background: none !important;
+}
+
+.select2-dropdown {
+    border: none !important;
+}
+
+.select2-dropdown:not(.select2-dropdown--above) .select2-results {
+    margin-top: 10px;
+}
+
+.select2-results {
+    background: white;
+    border-radius: 5px;
+}
+
+span.select2-results li {
+    color: #040728 !important;
+    transition: .5s;
+    padding: 8px 16px !important;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* Highlighted and hovered states */
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable,
+section.cf7-form span.select2-results li:hover {
+    color: #96CE47 !important;
+}
+
+section.cf7-form span.select2-results li,
+section.cf7-form span.select2-results li:hover,
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background: none !important;
+}
+
+/* Select2 search field */
+.select2-search--dropdown {
+    padding: 0 !important;
+    margin: -17px 0 0;
+    min-height: 45px;
+    background: white;
+    border-radius: 5px !important;
+}
+
+.select2-container--open .select2-dropdown:not(.select2-dropdown--above) .select2-search--dropdown {
+    padding: 0 !important;
+}
+
+.select2-container--open .select2-dropdown--above .select2-search--dropdown {
+    padding: 8px !important;
+}
+
+.select2-container--open .select2-dropdown--above .select2-search__field {
+    border-radius: 5px !important;
+    min-height: 50px;
+    outline: none;
+}
+
+span.select2-dropdown:not(.select2-dropdown--above) .select2-search__field {
+    padding: 8px 16px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    outline: none;
+}
+
+/* Maximum height for results */
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 300px !important;
+}
+
+/* Placeholder styling */
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 0 !important;
+}
+
+section.cf7-form textarea,
+span.select2-selection__placeholder {
+    font-family: 'BentonSans' !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
 
 @media (min-width:1200px) {
 
@@ -153,6 +272,12 @@ section.cf7-form .contact-image img {
 
     section.cf7-form .contact-form {
         padding: 30px 25px 10px;
+    }
+
+    .select2-search--dropdown {
+        margin: -1px 0 0;
+        min-height: 45px;
+        margin-left: 0px;
     }
 }
 
