@@ -12,7 +12,7 @@
     $asset_path = get_stylesheet_directory_uri();
     global $redirect_url;
     $redirect_url = get_home_url(); ?>
-    <?php include ('stylesheet-manager.php'); ?>
+    <?php include('stylesheet-manager.php'); ?>
     <?php wp_head(); ?>
 </head>
 
@@ -134,7 +134,7 @@
         <div class="container-fluid">
             <div class="wrapper">
                 <nav class="navbar navbar-expand-xl">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="<?php echo $redirect_url; ?>/">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/general/vcm_logo.png"
                             class="d-block w-100" alt="VCM Logo">
                     </a>

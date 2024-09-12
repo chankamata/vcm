@@ -59,6 +59,10 @@ p span {
     color: #96CE47;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 a,
 button,
 p,
@@ -70,7 +74,8 @@ label {
     line-height: normal;
 }
 
-input,textarea {
+input,
+textarea {
     font-size: 16px;
     font-family: 'BentonSans';
     line-height: normal;
