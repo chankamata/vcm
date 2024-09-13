@@ -282,7 +282,7 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="wrapper">
             <div class="influencer-form-box">
-                <h2>Expand your reach and <span>content as an Influencer</span></h2>
+                <h2 class="mb_60 text-center">Expand your reach and <span>content as an Influencer</span></h2>
                 <?php echo do_shortcode('[contact-form-7 id="339be17" title="Contact Form @Influencer Marketing"]') ?>
             </div>
         </div>

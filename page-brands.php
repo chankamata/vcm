@@ -8,7 +8,7 @@ get_header(); ?>
                 <div class="desc">
                     <h1>Our <span>Partners</span></h1>
                     <img src="<?php echo $asset_path; ?>/assets/img/page-brands/banner.jpg" alt="Our Partners"
-                        class="w-100 d-lg-none">
+                        class="w-100 d-md-none">
                     <p class="mb-lg-0">We take pride in our diverse portfolio of brands and the strong partnerships
                         we've forged with
                         leading brands across various industries.</p>
@@ -91,7 +91,110 @@ get_header(); ?>
                     <?php for ($i = 1; $i <= 5; $i++): ?>
                         <div class="image">
                             <img src="<?php echo $asset_path; ?>/assets/img/page-brands/partner/<?php echo $i; ?>.jpg">
-                        </div><?php endfor; ?>
+                        </div>
+                    <?php endfor; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="project l-_hpx">
+    <div class="container-fluid">
+        <div class="wrapper">
+            <h2 class="mb_60 text-center">LATEST <span>PROJECTS</span></h2>
+            <div class="d-flex col-image">
+                <div class="image">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/1.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/2.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/3.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/4.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/5.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/6.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/7.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/8.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/9.png" alt="">
+                </div>
+                <div class="image d-md-none">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/10.png" alt="">
+                </div>
+                <button id="loadImage" class="cta_button">Load More</button>
+            </div>
+            <div class="col-image">
+                <div class="d-none d-md-block">
+                    <div class="d-flex">
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/4.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/5.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-image">
+                <div class="d-none d-md-block">
+                    <div class="d-flex">
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/7.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/8.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-image">
+                <div class="d-none d-md-block">
+                    <div class="d-flex">
+                        <div class="image">
+                            <img src="<?php echo $asset_path; ?>/assets/img/page-brands/project/10.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="loadMore" class="cta_button">Load More</button>
+        </div>
+    </div>
+</section>
+<section class="seeding  l-_hpx">
+    <div class="container-fluid">
+        <div class="wrapper">
+            <h2 class="text-center mb_60"><span>SUCCESSFUL</span> BRAND SEEDING</h2>
+            <div class="image_section">
+                <div class="images">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/1.png" alt="">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/2.png" alt="">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/3.png" alt="">
+                </div>
+                <div class="images">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/4.png" alt="">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/5.png" alt="">
+                </div>
+                <div class="images">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/6.png" alt="">
+                    <img src="<?php echo $asset_path; ?>/assets/img/page-brands/seeding/7.png" alt="">
                 </div>
             </div>
         </div>

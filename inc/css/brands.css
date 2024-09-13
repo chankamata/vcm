@@ -41,7 +41,8 @@ section.partner-brands .owl-dot:not(.active) span {
     background: #D9D9D9 !important;
 }
 
-section.partner-agency {
+section.partner-agency,
+section.project {
     background: url('../../assets/img/page-brands/partner-agency.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,9 +86,8 @@ section.partner .content {
 }
 
 section.partner .logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(6, 1fr);
 }
 
 section.partner .logo .image {
@@ -95,7 +95,6 @@ section.partner .logo .image {
     overflow: hidden;
     border-radius: 20px;
     background: #fff;
-    width: 30%;
 }
 
 section.partner .logo .image:hover img {
@@ -105,6 +104,48 @@ section.partner .logo .image:hover img {
 section.partner .logo img {
     width: 100%;
     transition: .4s;
+}
+
+
+section.project img {
+    width: 100%;
+}
+
+section.project button {
+    height: 50px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid #96CE47;
+    background: none;
+    color: #F2F7E0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+section.project button:hover {
+    border: none;
+    padding: 14px 26px;
+    background: linear-gradient(90deg, #587E22 0%, #96CE47 100%);
+}
+
+section.seeding .image_section {
+    display: flex;
+    gap: 24px;
+}
+
+section.seeding .images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.seeding .images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 @media (min-width:1200px) {
@@ -136,6 +177,10 @@ section.partner .logo img {
         width: max-content;
         max-width: 660px;
     }
+
+    section.project button {
+        margin: 60px auto auto;
+    }
 }
 
 
@@ -160,8 +205,8 @@ section.partner .logo img {
         text-align: center;
     }
 
-    section.partner .logo {
-        max-width: 770px;
+    section.project button {
+        margin: 50px auto auto;
     }
 }
 
@@ -245,6 +290,23 @@ section.partner .logo img {
         width: 16px !important;
         height: 16px !important;
     }
+
+    section.project .col-image:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+
+    section.project .d-flex.col-image button {
+        display: none;
+    }
+
+    section.project .d-flex {
+        gap: 30px;
+    }
+
+    section.project .col-image:last-of-type .image {
+        max-width: 30%;
+    }
+
 }
 
 
@@ -265,9 +327,61 @@ section.partner .logo img {
         width: 13px !important;
         height: 13px !important;
     }
+
+    section.project .d-flex {
+        flex-direction: column;
+    }
+
+    section.project .d-flex .image:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+
+    section.project button {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto auto;
+    }
+
+    section.project button#loadMore {
+        display: none;
+    }
+
+    section.seeding .image_section {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:390px) {
+    section.partner .logo {
+        grid-template: repeat(4, 1fr) / repeat(6, 1fr);
+    }
+
+    section.partner .logo .image:nth-of-type(1) {
+        grid-area: 1 / 1 / 3 / 3;
+    }
+
+    section.partner .logo .image:nth-of-type(2) {
+        grid-area: 1 / 3 / 3 / 5;
+    }
+
+    section.partner .logo .image:nth-of-type(3) {
+        grid-area: 1 / 5 / 3 / 7;
+    }
+
+    section.partner .logo .image:nth-of-type(4) {
+        grid-area: 3 / 2 / 5 / 4;
+    }
+
+    section.partner .logo .image:nth-of-type(5) {
+        grid-area: 3 / 4 / 5 / 6;
+    }
 }
 
 @media (max-width:389px) {
+
+    section.partner .logo,
     section.partner-brands .group {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -277,6 +391,7 @@ section.partner .logo img {
         grid-template-columns: 1fr 1fr;
     }
 
+    section.partner .logo .image:nth-of-type(5),
     section.partner-agency .agency> :nth-child(21) {
         grid-column: 1 / 3;
         justify-self: center;
