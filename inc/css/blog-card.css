@@ -39,7 +39,16 @@
     color: #000;
 }
 
+p.details {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
 .blog_card .content a {
+    font-family: 'BentonSans-Bold';
     text-transform: uppercase;
     text-decoration: none;
     color: #2E3094;
@@ -56,5 +65,11 @@
 @media (max-width:991px) {
     .blog_card .content {
         padding: 25px 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .blog_card .image img {
+        max-height: 250px;
     }
 }

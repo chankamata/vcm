@@ -70,3 +70,33 @@ jQuery(document).ready(function () {
         handleMediaQueries();
     });
 });
+
+// Load More Button
+jQuery(document).ready(function () {
+    // Set the number of initially loaded images and increment for each click
+    var perPage, increment;
+    if (window.innerWidth >= 1200) {
+        perPage = 21;
+        increment = 7;
+    } else if (window.innerWidth >= 390) {
+        perPage = 12;
+        increment = 3;
+    } else {
+        perPage = 6;
+        increment = 2;
+    }
+
+    // Hide images greater than the initial number
+    jQuery('.client .brand-logo .image:gt(' + (perPage - 1) + ')').hide();
+
+    // Handle the "Load More" button click
+    jQuery('#loadbrand').click(function () {
+        var visibleCount = jQuery('.client .brand-logo .image:visible').length;
+        // Show the next set of images based on the increment value
+        jQuery('.client .brand-logo .image:lt(' + (visibleCount + increment) + ')').slideDown();
+        // Hide the "Load More" button if all images are visible
+        if (jQuery('.client .brand-logo .image:visible').length === jQuery('.client .brand-logo .image').length) {
+            jQuery('#loadbrand').hide();
+        }
+    });
+});

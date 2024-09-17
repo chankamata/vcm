@@ -1,0 +1,111 @@
+section.recent .grid {
+    gap: 30px;
+}
+
+section.recent .grid .blog-card {
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 30px 120px 30px 30px;
+}
+
+section.recent .grid .blog-card::after,
+section.recent .grid .blog-card::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    transition: .8s;
+    z-index: 0;
+}
+
+section.recent .grid .blog-card::before,
+section.recent .grid .blog-card:hover::after {
+    opacity: 1;
+}
+
+section.recent .grid .blog-card:hover::before,
+section.recent .grid .blog-card::after {
+    opacity: 0;
+}
+
+section.recent .grid .blog-card::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 65.8%);
+}
+
+section.recent .grid .blog-card:hover::after {
+    background: linear-gradient(180deg, rgba(150, 206, 71, 0.00) 0%, rgba(88, 126, 34, 0.60) 65.8%);
+}
+
+section.recent .grid .image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+
+section.recent .grid img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.recent .grid .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 999;
+}
+
+section.recent .header_content {
+    margin-bottom: 80px;
+    
+    display: flex;
+}
+
+section.recent .header_content._new {
+}
+
+
+@media (min-width:1200px) {
+    section.recent .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        height: 100%;
+    }
+
+    .grid> :nth-child(1) {
+        grid-column: 1 / 4;
+    }
+
+    .grid> :nth-child(2) {
+        grid-column: 4 / 6;
+    }
+
+    .grid> :nth-child(1) p.details {
+        -webkit-line-clamp: 2;
+    }
+}
+
+@media (max-width:1199px) {
+    section.recent .grid {
+        display: flex;
+    }
+
+    section.recent .grid .blog-card {
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    section.recent .grid {
+        flex-direction: column;
+    }
+}

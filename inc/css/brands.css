@@ -66,6 +66,7 @@ section.partner-agency .agency .image:hover img {
 
 section.partner-agency .agency img {
     width: 100%;
+    height: 100%;
     transition: .4s;
 }
 
@@ -148,6 +149,90 @@ section.seeding .images img {
     border-radius: 10px;
 }
 
+section.contact .content-box {
+    background: url('../../assets/img/page-brands/contact-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    padding: 60px;
+    border-radius: 20px;
+    min-height: 495px;
+}
+
+section.contact .content-box .image {
+    position: absolute;
+    bottom: 0;
+}
+
+section.client {
+    background: url('../../assets/img/page-brands/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section.client button {
+    height: 50px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid #96CE47;
+    background: none;
+    color: #F2F7E0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+section.client button:hover {
+    border: none;
+    padding: 14px 26px;
+    background: linear-gradient(90deg, #587E22 0%, #96CE47 100%);
+}
+
+section.client .brand-logo {
+    display: grid;
+}
+
+section.client .image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+}
+
+section.client .image img {
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+
+section.client .desc {
+    max-width: 802px;
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width:1367px) {
+    section.contact .content-box .image {
+        left: 0;
+    }
+}
+
+@media (max-width:1366px) {
+    section.contact .content-box {
+        overflow-x: clip;
+    }
+
+    section.contact .content-box .image {
+        left: -100px;
+    }
+}
+
 @media (min-width:1200px) {
 
     section.hero-banner ._content {
@@ -173,6 +258,10 @@ section.seeding .images img {
         grid-template-rows: 1fr 1fr 1fr;
     }
 
+    section.client .brand-logo {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
     section.partner .logo {
         width: max-content;
         max-width: 660px;
@@ -181,6 +270,7 @@ section.seeding .images img {
     section.project button {
         margin: 60px auto auto;
     }
+
 }
 
 
@@ -221,6 +311,10 @@ section.seeding .images img {
         justify-self: center;
         width: 22.852%;
     }
+
+    section.client .brand-logo {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 @media (min-width:992px) {
@@ -243,6 +337,15 @@ section.seeding .images img {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
+
+    section.contact .content-box {
+        padding: 60px;
+    }
+
+    section.contact .content-box .content {
+        width: 60% !important;
+    }
+
 }
 
 @media (max-width:991px) {
@@ -271,10 +374,22 @@ section.seeding .images img {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
+    section.client .brand-logo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section.contact .content-box {
+        padding: 30px;
+    }
+
+    section.contact .content-box .image {
+        left: -200px;
+    }
 }
 
 @media (min-width:768px) {
 
+    section.client .brand-logo,
     section.partner-agency .agency,
     section.partner-brands .group,
     section.partner .logo {
@@ -307,11 +422,17 @@ section.seeding .images img {
         max-width: 30%;
     }
 
+    section.contact .content-box .content {
+        max-width: 855px;
+        width: 55%;
+        margin: auto 0 auto auto;
+    }
 }
 
 
 @media (max-width:767px) {
 
+    section.client .brand-logo,
     section.partner-brands .group,
     section.partner-agency .agency,
     section.partner .logo {
@@ -351,31 +472,66 @@ section.seeding .images img {
         flex-direction: column;
     }
 
+    section.contact .content-box {
+        align-items: center;
+    }
+
+    section.contact .content-box .image {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -80px;
+        text-align: center;
+        border-radius: 100%;
+        width: 100%;
+        max-width: 454px;
+        max-height: 454px;
+        display: flex;
+        justify-content: center;
+    }
+
+    section.contact .content-box .image img {
+        border-radius: 100%;
+    }
+
+    section.contact .content-box .content {
+        margin-top: 380px;
+        text-align: center;
+    }
+
+    section.contact .content-box .content a {
+        margin: 30px auto auto;
+    }
 }
 
 @media (min-width:390px) {
-    section.partner .logo {
+    section.partner.brands .logo {
         grid-template: repeat(4, 1fr) / repeat(6, 1fr);
     }
 
-    section.partner .logo .image:nth-of-type(1) {
+    section.partner.brands .logo .image:nth-of-type(1) {
         grid-area: 1 / 1 / 3 / 3;
     }
 
-    section.partner .logo .image:nth-of-type(2) {
+    section.partner.brands .logo .image:nth-of-type(2) {
         grid-area: 1 / 3 / 3 / 5;
     }
 
-    section.partner .logo .image:nth-of-type(3) {
+    section.partner.brands .logo .image:nth-of-type(3) {
         grid-area: 1 / 5 / 3 / 7;
     }
 
-    section.partner .logo .image:nth-of-type(4) {
+    section.partner.brands .logo .image:nth-of-type(4) {
         grid-area: 3 / 2 / 5 / 4;
     }
 
-    section.partner .logo .image:nth-of-type(5) {
+    section.partner.brands .logo .image:nth-of-type(5) {
         grid-area: 3 / 4 / 5 / 6;
+    }
+
+    section.partner:not(.brands) .logo {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -387,11 +543,12 @@ section.seeding .images img {
         grid-template-columns: 1fr 1fr;
     }
 
+    section.client .brand-logo,
     section.partner-agency .agency {
         grid-template-columns: 1fr 1fr;
     }
 
-    section.partner .logo .image:nth-of-type(5),
+    section.partner.brands .logo .image:nth-of-type(5),
     section.partner-agency .agency> :nth-child(21) {
         grid-column: 1 / 3;
         justify-self: center;

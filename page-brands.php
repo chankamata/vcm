@@ -78,7 +78,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="partner l-_hpx">
+<section class="partner brands l-_hpx">
     <div class="container-fluid">
         <div class="wrapper">
             <div class="d-flex">
